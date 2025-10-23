@@ -65,7 +65,7 @@ class Qwen3GuardTester:
 
 if __name__ == "__main__":
     # 模型路径（替换为你的实际路径）
-    MODEL_PATH = "/data/intern/.cache/modelscope/hub/models/Qwen/Qwen3Guard-Gen-8B"
+    MODEL_PATH = "~/.cache/modelscope/hub/models/Qwen/Qwen3Guard-Gen-8B"
     
     # 测试提示词（包含安全和敏感内容）
     test_prompts = [
