@@ -1,5 +1,4 @@
-# 项目结构
-jailbreak_testing_framework/
+jailbreak_testing/
 ├── core/
 │   ├── __init__.py
 │   ├── base_attack.py      # 攻击基类
@@ -17,12 +16,15 @@ jailbreak_testing_framework/
 │   ├── base.py
 │   ├── openai_models.py
 │   ├── anthropic_models.py
-│   └── local_models.py
-├── configs/               # 配置文件
+│   └── local_models.py     
+├── configs/                # 配置文件
 │   ├── default.yaml
 │   └── attacks.yaml
-├── utils/                 # 工具函数
+├── utils/                  # 工具函数
 │   ├── __init__.py
 │   ├── logger.py
-│   └── helpers.py
-└── main.py               # 主执行文件
+│   ├── helpers.py
+│   ├── device_monitor.py
+│   └── model_manager.py
+├── main.py                 # 主执行文件
+└── requirements.txt        # 依赖清单
